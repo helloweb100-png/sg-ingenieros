@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SG Ingenieros">
+  <rect width="64" height="64" rx="14" fill="#071a3a"/>
+  <text x="32" y="38" text-anchor="middle" font-family="Space Grotesk, Arial, Helvetica, sans-serif" font-weight="700" font-size="29" letter-spacing="-1" fill="#ffffff">SG</text>
+  <rect x="14" y="46" width="36" height="5" rx="2.5" fill="#f26b1d"/>
+</svg>
