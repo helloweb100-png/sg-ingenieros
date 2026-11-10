@@ -640,6 +640,13 @@ details p { padding: 0 3rem 1.4rem 0; color: var(--muted); max-width: 62ch; anim
 .checks { display: grid; gap: .7rem; margin-top: 1.8rem; }
 .checks li { position: relative; padding-left: 1.8rem; color: var(--sky-200); }
 .checks li::before { content: ""; position: absolute; left: 0; top: .45em; width: 11px; height: 11px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 5px rgba(242, 107, 29, .2); }
+.datos { margin: 2rem 0 0; border-top: 1px solid rgba(111, 168, 255, .25); }
+.datos > div { display: grid; gap: .3rem; padding: .9rem 0; border-bottom: 1px solid rgba(111, 168, 255, .25); }
+.datos dt { font: 500 .68rem var(--f-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--sky); }
+.datos dd { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem 1.2rem; color: #fff; }
+.datos a { color: #fff; text-decoration: none; border-bottom: 1px solid var(--orange-400); }
+.datos a:hover { color: var(--orange-400); }
+.datos .datos-tel { font: 600 1.35rem var(--f-display); letter-spacing: -.01em; }
 .form-card {
   padding: 1.5rem; border-radius: var(--r-lg); background: #fff; color: var(--ink); box-shadow: 0 50px 90px -30px rgba(0, 0, 0, .7);
 }
